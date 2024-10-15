@@ -30,28 +30,32 @@ html, body{
 }
 
 .infoContent{
-    height: 800px; 
+    /*height: 800px; */
+    padding: 100px; 
 }
 
 
 #projectsInfo{
-    height: 1000px; 
+    padding-top: 50px; 
+    display: inline-block;
 }
 
 
 #experienceInfo{
-    padding-top: 10px; 
     background-color: var(--whiteColor);
+    display: inline-block; 
 }
 
 #schoolingInfo { 
-    padding-top: 10px; 
     background-color: var(--mainColor); 
+    height: 400px;
 }
 
 #contactInfo { 
-    padding-top: 10px; 
+    
+    height: 400px; 
     background-color: var(--whiteColor);
+    
 }
 
 
@@ -72,6 +76,8 @@ html, body{
 #projectsInfo a h3{
     text-align: center; 
 }
+
+
 
 
 #info section{
