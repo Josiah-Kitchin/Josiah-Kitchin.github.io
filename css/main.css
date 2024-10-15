@@ -30,8 +30,15 @@ html, body{
 }
 
 .infoContent{
-    /*height: 800px; */
     padding: 100px; 
+
+}
+
+@media (max-width: 600px) {
+  .infoContent {
+    padding: 10px; /* Adjust padding for smaller screens if needed */
+    font-size: 14px; /* Adjust font size for readability */
+  }
 }
 
 
