@@ -1,0 +1,183 @@
+
+:root {
+    --mainColor: #051622; 
+    --secondColor: #DEB992; 
+    --thirdColor: #1BA098;
+    --greyColor: #3d3d3d; 
+    --whiteColor: #161616; 
+	
+
+}
+
+html, body{
+    margin: 0; 
+    font-family: raleway; 
+}
+
+/*Info */
+
+#info{
+    background-color: var(--mainColor); 
+    color: white;
+    width: 100%; 
+    float: right; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#info ul{
+    text-align: left; 
+}
+
+.infoContent{
+    height: 800px; 
+}
+
+
+#projectsInfo{
+    height: 1000px; 
+}
+
+
+#experienceInfo{
+    padding-top: 10px; 
+    background-color: var(--whiteColor);
+}
+
+#schoolingInfo { 
+    padding-top: 10px; 
+    background-color: var(--mainColor); 
+}
+
+#contactInfo { 
+    padding-top: 10px; 
+    background-color: var(--whiteColor);
+}
+
+
+
+
+#info h1{
+    font-size: 70px; 
+    color: var(--secondColor); 
+    margin-bottom: 40px;
+    text-align: center; 
+}
+
+
+#info h3{
+    text-align: left; 
+}
+
+#projectsInfo a h3{
+    text-align: center; 
+}
+
+
+#info section{
+    display: inline-block; 
+    width: 50%; 
+    padding: 10px;
+}
+
+#info section h3{
+    color: var(--thirdColor); 
+}
+
+#info section p{
+    text-align: left;
+   
+}
+
+
+
+
+/*Sidebar*/
+
+#navMenu{
+    background-color: var(--whiteColor); 
+    display: block; 
+    color: white; 
+    width: 100%; 
+    text-align: center; 
+    height: 100%; 
+    position: fixed; 
+    
+}
+
+
+#navHeader{
+    height: 200px;
+    margin-top: 3%; 
+    font-size: 40px; 
+    color: var(--secondColor); 
+
+}
+#navHeader h3{
+    margin-bottom: 0%; 
+}
+#navHeader h2{
+    font-size: 20px; 
+    color: var(--thirdColor); 
+}
+#navHeader img{
+    height: 200px;
+    width: 190px; 
+    border-radius: 50%; 
+    border: 2px solid var(--greyColor); 
+    
+    
+}
+
+#navMenu nav ul{
+    margin-top: 200px; 
+    list-style-type: none; 
+    padding-left: 0px;
+    font-size: 25px; 
+}
+
+#navMenu nav li a{
+    display: block; 
+    text-decoration: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    margin: 0px; 
+    color: inherit; 
+    font: inherit; 
+}
+
+
+#navMenu nav li a:hover{
+    background-color: var(--greyColor); 
+    color: var(--thirdColor); 
+    transition-duration: 0.3s; 
+}
+
+
+#toggleButton{
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 3px;
+    display: block; 
+    width: 60px;
+    height: 60px;
+    background-color: var(--greyColor);
+    position: fixed; 
+    cursor: pointer;
+    z-index: 1;
+}
+
+#toggleButton img{
+    width: 100%;
+    height: 100%;
+}
+
+
+ 
+
+
+
+
+
+ 
+ 
