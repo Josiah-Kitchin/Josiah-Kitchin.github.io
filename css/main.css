@@ -134,8 +134,7 @@ html, body{
     color: var(--thirdColor); 
 }
 #navHeader img{
-    height: 200px;
-    width: 190px; 
+    width: 300px; 
     border-radius: 50%; 
     border: 2px solid var(--greyColor); 
     
